@@ -35,6 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B0CD6AE211B64E7004EBBBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BB9537621193FEF005CAE52 /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B0CD6B0211B6502004EBBBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BB9537821193FEF005CAE52 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B0CD6B1211B6505004EBBBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BB9537A21193FEF005CAE52 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B0CD6B2211B658C004EBBBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB9537D21193FF0005CAE52 /* Assets.xcassets */,
+				9BB9537F21193FF0005CAE52 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9BB9536A21193FEF005CAE52 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +87,10 @@
 		9BB9537521193FEF005CAE52 /* BizQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				9BB9537621193FEF005CAE52 /* AppDelegate.swift */,
-				9BB9537821193FEF005CAE52 /* ViewController.swift */,
-				9BB9537A21193FEF005CAE52 /* Main.storyboard */,
-				9BB9537D21193FF0005CAE52 /* Assets.xcassets */,
-				9BB9537F21193FF0005CAE52 /* LaunchScreen.storyboard */,
+				9B0CD6AE211B64E7004EBBBC /* Model */,
+				9B0CD6B1211B6505004EBBBC /* View */,
+				9B0CD6B0211B6502004EBBBC /* Controller */,
+				9B0CD6B2211B658C004EBBBC /* Supporting Files */,
 				9BB9538221193FF0005CAE52 /* Info.plist */,
 			);
 			path = BizQuiz;
