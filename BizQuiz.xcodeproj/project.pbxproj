@@ -14,7 +14,7 @@
 		9BB9538121193FF0005CAE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB9537F21193FF0005CAE52 /* LaunchScreen.storyboard */; };
 		9BEAA4AC21A2416F00CAA838 /* BasicParli.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAA4AB21A2416F00CAA838 /* BasicParli.swift */; };
 		9BEAA4B021A241EE00CAA838 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAA4AF21A241EE00CAA838 /* Question.swift */; };
-		9BEAA4B221A2420800CAA838 /* BasicParliQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAA4B121A2420800CAA838 /* BasicParliQuestionBank.swift */; };
+		9BEAA4B221A2420800CAA838 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAA4B121A2420800CAA838 /* QuestionBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		9BB9538221193FF0005CAE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BEAA4AB21A2416F00CAA838 /* BasicParli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicParli.swift; sourceTree = "<group>"; };
 		9BEAA4AF21A241EE00CAA838 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		9BEAA4B121A2420800CAA838 /* BasicParliQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicParliQuestionBank.swift; sourceTree = "<group>"; };
+		9BEAA4B121A2420800CAA838 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				9BEAA4AF21A241EE00CAA838 /* Question.swift */,
-				9BEAA4B121A2420800CAA838 /* BasicParliQuestionBank.swift */,
+				9BEAA4B121A2420800CAA838 /* QuestionBank.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 				9BB9537921193FEF005CAE52 /* ViewController.swift in Sources */,
 				9BEAA4B021A241EE00CAA838 /* Question.swift in Sources */,
 				9BEAA4AC21A2416F00CAA838 /* BasicParli.swift in Sources */,
-				9BEAA4B221A2420800CAA838 /* BasicParliQuestionBank.swift in Sources */,
+				9BEAA4B221A2420800CAA838 /* QuestionBank.swift in Sources */,
 				9BB9537721193FEF005CAE52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
