@@ -16,32 +16,45 @@ class BasicParliViewController: UIViewController {
 
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var answerA: UIButton!
     
+    //Figure out how to change answer text as well
     override func viewDidLoad() {
         super.viewDidLoad()
-        let firstQuestion = allQuestions.list[0]
+        let firstQuestion = allQuestions.parliList[0]
         questionLabel.text = firstQuestion.questionText
     }
-    
-    @IBAction func answerPressed(_ sender: AnyObject) {
-        if sender.tag == 1 {
-                pickedAnswer = "A"
-        }
-        else if sender.tag == 2 {
-                pickedAnswer = "B"
-        }
-        else if sender.tag == 3 {
-                pickedAnswer = "C"
-        }
-        else if sender.tag == 4 {
-                pickedAnswer = "D"
-        }
-        
+    //Remember to reconnect buttons
+    @IBAction func answerAPressed(_ sender: AnyObject) {
+        pickedAnswer = "A"
+        answersPressed()
+//        if sender.tag == 2 {
+//                pickedAnswer = "A"
+//            //multipleChoiceButton.
+//        }
+//        else if sender.tag == 3 {
+//                pickedAnswer = "B"
+//        }
+//        else if sender.tag == 4 {
+//                pickedAnswer = "C"
+//        }
+//        else if sender.tag == 5 {
+//                pickedAnswer = "D"
+//        }
+//
+    }
+
+    func answersPressed() {
         checkAnswer()
         questionNumber = questionNumber + 1
         nextQuestion()
+        changeAnswers()
     }
-    
+    func changeAnswers() {
+        answerA.setTitle("Why", for: .normal)
+        //Can make buttons for others? Make answer bank and answer model. Then can called specific position. Maybe for questionNumber? No. Make new one called answer number
+        //Problem= code only activates when I press B, Solution: Make action function for each button?
+    }
     func updateUI() {
         
         scoreLabel.text = "Score: \(score)"
@@ -53,8 +66,8 @@ class BasicParliViewController: UIViewController {
         
         if questionNumber <= 15{
             
-            questionLabel.text = allQuestions.list[questionNumber].questionText
-            
+            questionLabel.text = allQuestions.parliList[questionNumber].questionText
+        
             updateUI()
             
         }
@@ -76,7 +89,7 @@ class BasicParliViewController: UIViewController {
     
     func checkAnswer() {
         
-        let correctAnswer = allQuestions.list[questionNumber].answer
+        let correctAnswer = allQuestions.parliList[questionNumber].answer
         
         if correctAnswer == pickedAnswer {
     
