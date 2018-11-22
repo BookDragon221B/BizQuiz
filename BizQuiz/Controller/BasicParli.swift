@@ -8,6 +8,8 @@
 
 import UIKit
 
+//Better way then just copy & pasting code to other vc's? Loop code?
+//Way to get rid of VC's? They are all just the same thing
 class BasicParliViewController: UIViewController {
     let allQuestions = BasicParliQuestionBank()
     let allAnswers = ParliAnswerBank()
