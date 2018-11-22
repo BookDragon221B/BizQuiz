@@ -10,14 +10,13 @@ import Foundation
 
 class BasicParliQuestionBank {
     
-    var parliList = [Question]()
+    var list = [Question]()
     
     init() {
     
         // Creating the quiz item inside the append function
-        parliList.append(Question(text: "Which of these is one one of the specific goals of FBLA stated in Article II of the FBLA Bylaws? ", correctAnswer: "A"))
-        
-        parliList.append(Question(text: "Article IV of the FBLA bylaws covers the organization of FBLA.", correctAnswer: "D"))
+        list.append(Question(text: "Which of these is one one of the specific goals of FBLA stated in Article II of the FBLA Bylaws? ", correctAnswer: "A"))
+        list.append(Question(text: "Article IV of the FBLA bylaws covers the organization of FBLA.", correctAnswer: "D"))
        
     }
     
@@ -26,12 +25,26 @@ class BasicParliQuestionBank {
 //Question Bank for the topic FBLA History
 class FBLAHistoryQuestionBank {
     
-    var historyList = [Question]()
+    var list = [Question]()
     
     init() {
-        historyList.append(Question(text: "When was the first FBLA chapter chartered?", correctAnswer: "B"))
-        historyList.append(Question(text: "Where was the first chapter chartered?", correctAnswer: "D"))
-         historyList.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "When was the 1st FBLA chapter chartered?", correctAnswer: "B"))
+        list.append(Question(text: "Where was the 1st chapter chartered?", correctAnswer: "D"))
+        list.append(Question(text: "When was the 1st PBL chapter chartered?", correctAnswer: "A"))
+        list.append(Question(text: "When was the idea for FBLA created", correctAnswer: "C"))
+        list.append(Question(text: "When was the name Future Business Leaders of America selected?", correctAnswer: "D"))
+        
+        list.append(Question(text: "Where was the 1st FBLA state chapter?", correctAnswer: "B"))
+        list.append(Question(text: "When was the middle-level division created?", correctAnswer: "B"))
+        list.append(Question(text: "Who was the 1st full time executive director?", correctAnswer: "A"))
+        list.append(Question(text: "Who founded FBLA?", correctAnswer: "C"))
+        list.append(Question(text: "When was FBLA's 1st full time executive director appointed?", correctAnswer: "D"))
+        
+        list.append(Question(text: "When did FBLA's annual membership top 200,000?", correctAnswer: "A"))
+        list.append(Question(text: "When was the FBLA-PBL morgage retired?", correctAnswer: "C"))
+        list.append(Question(text: "When was the alumni/professional division established?", correctAnswer: "B"))
+        list.append(Question(text: "Whhen was the alumni division renamed the professional division?", correctAnswer: "A"))
+        list.append(Question(text: "When was the grand opening of the FBLA-PBL National Center?", correctAnswer: "C"))
     }
     
 }

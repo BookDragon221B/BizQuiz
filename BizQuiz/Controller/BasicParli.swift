@@ -30,11 +30,11 @@ class BasicParliViewController: UIViewController {
     //Figure out how to change answer text as well
     override func viewDidLoad() {
         super.viewDidLoad()
-        let firstQuestion = allQuestions.parliList[0]
-        let firstAnswerA = allAnswers.parliAnswer[0]
-        let firstAnswerB = allAnswers.parliAnswer[1]
-        let firstAnswerC = allAnswers.parliAnswer[2]
-        let firstAnswerD = allAnswers.parliAnswer[3]
+        let firstQuestion = allQuestions.list[0]
+        let firstAnswerA = allAnswers.answer[0]
+        let firstAnswerB = allAnswers.answer[1]
+        let firstAnswerC = allAnswers.answer[2]
+        let firstAnswerD = allAnswers.answer[3]
         
         questionLabel.text = firstQuestion.questionText
         answerA.setTitle(firstAnswerA.answerText, for: .normal)
@@ -72,10 +72,10 @@ class BasicParliViewController: UIViewController {
     }
 
     func changeAnswers() {
-        answerA.setTitle(allAnswers.parliAnswer[answerANumber].answerText, for: .normal)
-        answerB.setTitle(allAnswers.parliAnswer[answerBNumber].answerText, for: .normal)
-        answerC.setTitle(allAnswers.parliAnswer[answerCNumber].answerText, for: .normal)
-        answerD.setTitle(allAnswers.parliAnswer[answerDNumber].answerText, for: .normal)
+        answerA.setTitle(allAnswers.answer[answerANumber].answerText, for: .normal)
+        answerB.setTitle(allAnswers.answer[answerBNumber].answerText, for: .normal)
+        answerC.setTitle(allAnswers.answer[answerCNumber].answerText, for: .normal)
+        answerD.setTitle(allAnswers.answer[answerDNumber].answerText, for: .normal)
     }
     func updateUI() {
         
@@ -88,7 +88,7 @@ class BasicParliViewController: UIViewController {
         
         if questionNumber <= 2{
             
-            questionLabel.text = allQuestions.parliList[questionNumber].questionText
+            questionLabel.text = allQuestions.list[questionNumber].questionText
         
             updateUI()
             
@@ -111,7 +111,7 @@ class BasicParliViewController: UIViewController {
     
     func checkAnswer() {
         
-        let correctAnswer = allQuestions.parliList[questionNumber].answer
+        let correctAnswer = allQuestions.list[questionNumber].answer
         
         if correctAnswer == pickedAnswer {
     

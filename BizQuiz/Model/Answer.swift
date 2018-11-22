@@ -13,6 +13,5 @@ class Answer {
     
     init(text : String) {
         answerText = text
-        
     }
 }

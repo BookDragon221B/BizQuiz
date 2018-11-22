@@ -17,7 +17,6 @@ class Question {
     init(text: String, correctAnswer: String) {
         questionText = text
         answer = correctAnswer
-        
     }
     
 }
