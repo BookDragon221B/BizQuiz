@@ -31,6 +31,7 @@ class FBLAHistoryQuestionBank {
     init() {
         historyList.append(Question(text: "When was the first FBLA chapter chartered?", correctAnswer: "B"))
         historyList.append(Question(text: "Where was the first chapter chartered?", correctAnswer: "D"))
+         historyList.append(Question(text: "?", correctAnswer: "A"))
     }
     
 }

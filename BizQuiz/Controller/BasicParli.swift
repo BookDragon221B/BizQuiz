@@ -10,50 +10,72 @@ import UIKit
 
 class BasicParliViewController: UIViewController {
     let allQuestions = BasicParliQuestionBank()
+    let allAnswers = ParliAnswerBank()
+    
     var pickedAnswer : String = ""
     var questionNumber : Int = 0
     var score : Int = 0
+    var answerANumber : Int = 0
+    var answerBNumber : Int = 1
+    var answerCNumber : Int = 2
+    var answerDNumber : Int = 3
 
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerA: UIButton!
+    @IBOutlet weak var answerB: UIButton!
+    @IBOutlet weak var answerC: UIButton!
+    @IBOutlet weak var answerD: UIButton!
     
     //Figure out how to change answer text as well
     override func viewDidLoad() {
         super.viewDidLoad()
         let firstQuestion = allQuestions.parliList[0]
+        let firstAnswerA = allAnswers.parliAnswer[0]
+        let firstAnswerB = allAnswers.parliAnswer[1]
+        let firstAnswerC = allAnswers.parliAnswer[2]
+        let firstAnswerD = allAnswers.parliAnswer[3]
+        
         questionLabel.text = firstQuestion.questionText
+        answerA.setTitle(firstAnswerA.answerText, for: .normal)
+        answerB.setTitle(firstAnswerB.answerText, for: .normal)
+        answerC.setTitle(firstAnswerC.answerText, for: .normal)
+        answerD.setTitle(firstAnswerD.answerText, for: .normal)
     }
-    //Remember to reconnect buttons
     @IBAction func answerAPressed(_ sender: AnyObject) {
         pickedAnswer = "A"
         answersPressed()
-//        if sender.tag == 2 {
-//                pickedAnswer = "A"
-//            //multipleChoiceButton.
-//        }
-//        else if sender.tag == 3 {
-//                pickedAnswer = "B"
-//        }
-//        else if sender.tag == 4 {
-//                pickedAnswer = "C"
-//        }
-//        else if sender.tag == 5 {
-//                pickedAnswer = "D"
-//        }
-//
     }
-
+    @IBAction func answerBPressed(_ sender: Any) {
+        pickedAnswer = "B"
+        answersPressed()
+    }
+    @IBAction func answerCPressed(_ sender: Any) {
+        pickedAnswer = "C"
+        answersPressed()
+    }
+    @IBAction func answerDPressed(_ sender: Any) {
+        pickedAnswer = "D"
+        answersPressed()
+    }
+    
+    
     func answersPressed() {
         checkAnswer()
         questionNumber = questionNumber + 1
+        answerANumber = answerANumber + 4
+        answerBNumber = answerBNumber + 4
+        answerCNumber = answerCNumber + 4
+        answerDNumber = answerDNumber + 4
         nextQuestion()
         changeAnswers()
     }
+
     func changeAnswers() {
-        answerA.setTitle("Why", for: .normal)
-        //Can make buttons for others? Make answer bank and answer model. Then can called specific position. Maybe for questionNumber? No. Make new one called answer number
-        //Problem= code only activates when I press B, Solution: Make action function for each button?
+        answerA.setTitle(allAnswers.parliAnswer[answerANumber].answerText, for: .normal)
+        answerB.setTitle(allAnswers.parliAnswer[answerBNumber].answerText, for: .normal)
+        answerC.setTitle(allAnswers.parliAnswer[answerCNumber].answerText, for: .normal)
+        answerD.setTitle(allAnswers.parliAnswer[answerDNumber].answerText, for: .normal)
     }
     func updateUI() {
         
@@ -64,7 +86,7 @@ class BasicParliViewController: UIViewController {
     
     func nextQuestion() {
         
-        if questionNumber <= 15{
+        if questionNumber <= 2{
             
             questionLabel.text = allQuestions.parliList[questionNumber].questionText
         
