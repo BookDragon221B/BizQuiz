@@ -31,7 +31,7 @@ class FBLAHistoryQuestionBank {
         list.append(Question(text: "When was the 1st FBLA chapter chartered?", correctAnswer: "B"))
         list.append(Question(text: "Where was the 1st chapter chartered?", correctAnswer: "D"))
         list.append(Question(text: "When was the 1st PBL chapter chartered?", correctAnswer: "A"))
-        list.append(Question(text: "When was the idea for FBLA created", correctAnswer: "C"))
+        list.append(Question(text: "When was the idea for FBLA created?", correctAnswer: "C"))
         list.append(Question(text: "When was the name Future Business Leaders of America selected?", correctAnswer: "D"))
         
         list.append(Question(text: "Where was the 1st FBLA state chapter?", correctAnswer: "B"))

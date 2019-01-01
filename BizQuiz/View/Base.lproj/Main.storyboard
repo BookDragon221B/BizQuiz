@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MeR-3Y-esl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2260" y="473.6131934032984"/>
+            <point key="canvasLocation" x="2216" y="511"/>
         </scene>
         <!--Basic Parlimentary Procedure-->
         <scene sceneID="kcF-T3-F4r">
@@ -403,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vq7-R6-e0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3807" y="531"/>
+            <point key="canvasLocation" x="3795" y="511"/>
         </scene>
         <!--Running For National Office-->
         <scene sceneID="Tld-uu-by1">
@@ -483,7 +483,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2N-rp-HaQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4609" y="537"/>
+            <point key="canvasLocation" x="4611" y="510"/>
         </scene>
         <!--Terms & Conditions-->
         <scene sceneID="ZZP-0I-SvO">
