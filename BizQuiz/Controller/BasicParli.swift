@@ -88,7 +88,7 @@ class BasicParliViewController: UIViewController {
     
     func nextQuestion() {
         
-        if questionNumber <= 2{
+        if questionNumber <= 1{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
         
