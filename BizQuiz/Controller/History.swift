@@ -83,12 +83,6 @@ class FBLAHistoryViewController : UIViewController {
             nextQuestion()
         }
     }
-    func updateUI() {
-        
-        scoreLabel.text = "Score: \(score)"
-        
-    }
-    
     
     func nextQuestion() {
         //Setting this value to 13 keeps the index for answers in the right range, but setting it there also makes it so the last question isn't displayed
@@ -97,7 +91,7 @@ class FBLAHistoryViewController : UIViewController {
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
             
-            updateUI()
+            scoreLabel.text = "Score: \(score)"
         //Calls the correct question set in the question bank (allQuestions.list) and then updates the score
             
         }
@@ -123,10 +117,12 @@ class FBLAHistoryViewController : UIViewController {
         
         if correctAnswer == pickedAnswer {
             
+            ProgressHUD.showSuccess("Correct")
+            
             score += 1
         }
         else {
-            
+            ProgressHUD.showError("Wrong.")
         }
     }
     

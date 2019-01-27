@@ -82,12 +82,6 @@ class NationalOfficeViewController : UIViewController {
         nextQuestion()
         }
     }
-    func updateUI() {
-        
-        scoreLabel.text = "Score: \(score)"
-        
-    }
-    
     
     func nextQuestion() {
         
@@ -95,7 +89,7 @@ class NationalOfficeViewController : UIViewController {
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
             
-            updateUI()
+            scoreLabel.text = "Score: \(score)"
             
         }
         else {
@@ -120,10 +114,12 @@ class NationalOfficeViewController : UIViewController {
         
         if correctAnswer == pickedAnswer {
             
+            ProgressHUD.showSuccess("Correct")
+            
             score += 1
         }
         else {
-            
+            ProgressHUD.showError("Wrong.")
         }
     }
     
