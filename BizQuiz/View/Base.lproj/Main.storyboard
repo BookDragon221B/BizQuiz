@@ -18,42 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Entrepreneur!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKt-T3-ZFu">
-                                <rect key="frame" x="0.0" y="81" width="329" height="107"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Entrepreneur!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKt-T3-ZFu">
+                                <rect key="frame" x="0.0" y="64" width="320" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDu-xc-Bxr">
-                                <rect key="frame" x="245" y="523" width="59" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="13"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UE8-sH-LXW" kind="show" id="H7C-Ix-rPq"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To countinue, please agree to our terms of use. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tW-Yb-AZx">
-                                <rect key="frame" x="0.0" y="513" width="229" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMm-Sb-eLd">
-                                <rect key="frame" x="143" y="307" width="42" height="30"/>
+                                <rect key="frame" x="35" y="317" width="263" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="topics"/>
+                                <state key="normal" title="Click Here To Choose Your Quiz Topic!">
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="LZn-43-e5g" kind="show" id="mh1-HU-kyD"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="PJO-YE-hoz"/>
@@ -70,110 +53,118 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klh-jh-64r">
-                                <rect key="frame" x="16" y="124" width="153" height="40"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
-                                <state key="normal" title="Business Skills">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="7uW-PR-P1D" kind="show" id="oQM-vj-CgX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh5-P4-u7S">
-                                <rect key="frame" x="16" y="164" width="299" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="66g-gV-PlA"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
-                                <state key="normal" title="Basic Parlimentary Procedure">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="ChM-7j-Bbg" kind="show" id="v4C-xG-by9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csc-WI-tLA">
-                                <rect key="frame" x="16" y="204" width="284" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="f4h-vC-gs5"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
-                                <state key="normal" title="Running for National Office">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vp7-G4-A7C" kind="show" id="WjR-Sz-Ued"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yal-eo-9os">
-                                <rect key="frame" x="16" y="244" width="144" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Oit-Ye-wQW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
-                                <state key="normal" title="FBLA History">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="YOF-Ie-rqK" kind="show" id="iBy-Df-Sy9"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Topics:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYm-ut-ttf">
                                 <rect key="frame" x="0.0" y="64" width="134" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="2bl-sy-upG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="45"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klh-jh-64r">
+                                <rect key="frame" x="10" y="124" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Lt7-5i-BYK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
+                                <state key="normal" title="Business Skills">
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7uW-PR-P1D" kind="show" id="oQM-vj-CgX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh5-P4-u7S">
+                                <rect key="frame" x="10" y="164" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="66g-gV-PlA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
+                                <state key="normal" title="Basic Parlimentary Procedure">
+                                    <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ChM-7j-Bbg" kind="show" id="v4C-xG-by9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csc-WI-tLA">
+                                <rect key="frame" x="10" y="204" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="f4h-vC-gs5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
+                                <state key="normal" title="Running for National Office">
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vp7-G4-A7C" kind="show" id="WjR-Sz-Ued"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yal-eo-9os">
+                                <rect key="frame" x="10" y="244" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Oit-Ye-wQW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
+                                <state key="normal" title="FBLA History">
+                                    <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YOF-Ie-rqK" kind="show" id="iBy-Df-Sy9"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="left" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VE-Io-EeD">
-                                <rect key="frame" x="16" y="284" width="203" height="40"/>
+                                <rect key="frame" x="10" y="284" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="eFj-Cl-Aa0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
                                 <state key="normal" title="Competetive Events">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="zzZ-37-pyB" kind="show" id="kU3-xg-4ga"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="csc-WI-tLA" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="16" id="2DR-en-v5K"/>
+                            <constraint firstItem="Klh-jh-64r" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="10" id="0bX-0Z-Hil"/>
+                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="Klh-jh-64r" secondAttribute="trailing" constant="10" id="3JV-lv-V75"/>
                             <constraint firstItem="Klh-jh-64r" firstAttribute="top" secondItem="wYm-ut-ttf" secondAttribute="bottom" id="3fK-bJ-Z1V"/>
+                            <constraint firstItem="0VE-Io-EeD" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="10" id="4H8-go-Rfx"/>
                             <constraint firstItem="Klh-jh-64r" firstAttribute="top" secondItem="wYm-ut-ttf" secondAttribute="bottom" id="4jo-Fi-NVU"/>
+                            <constraint firstItem="gh5-P4-u7S" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="10" id="71O-lB-Bpy"/>
                             <constraint firstItem="wYm-ut-ttf" firstAttribute="top" secondItem="DJI-EX-fb7" secondAttribute="top" id="9XS-cB-EwK"/>
-                            <constraint firstItem="gh5-P4-u7S" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="16" id="EEw-30-OWh"/>
+                            <constraint firstItem="csc-WI-tLA" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="10" id="GPF-Id-BNK"/>
                             <constraint firstItem="0VE-Io-EeD" firstAttribute="top" secondItem="yal-eo-9os" secondAttribute="bottom" id="GkT-dD-5RM"/>
-                            <constraint firstItem="0VE-Io-EeD" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="16" id="JjP-71-hmx"/>
-                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="csc-WI-tLA" secondAttribute="trailing" constant="20" id="Kcm-E9-juj"/>
+                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="0VE-Io-EeD" secondAttribute="trailing" constant="10" id="Isf-ex-w7e"/>
                             <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="wYm-ut-ttf" secondAttribute="trailing" constant="186" id="Mba-Vn-BtW"/>
                             <constraint firstItem="wYm-ut-ttf" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" id="O32-Xz-Vyj"/>
-                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="yal-eo-9os" secondAttribute="trailing" constant="160" id="UKX-1f-X8A"/>
+                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="yal-eo-9os" secondAttribute="trailing" constant="10" id="Rb6-GI-R7z"/>
                             <constraint firstItem="csc-WI-tLA" firstAttribute="top" secondItem="gh5-P4-u7S" secondAttribute="bottom" id="VMK-XG-t9e"/>
                             <constraint firstItem="0VE-Io-EeD" firstAttribute="top" secondItem="yal-eo-9os" secondAttribute="bottom" id="W15-l5-MTe"/>
-                            <constraint firstItem="yal-eo-9os" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="16" id="aFC-Ap-4t9"/>
                             <constraint firstItem="gh5-P4-u7S" firstAttribute="top" secondItem="Klh-jh-64r" secondAttribute="bottom" id="dm5-79-kfa"/>
-                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="gh5-P4-u7S" secondAttribute="trailing" constant="5" id="krc-fS-o6X"/>
+                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="gh5-P4-u7S" secondAttribute="trailing" constant="10" id="g4o-Kc-QsB"/>
+                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="csc-WI-tLA" secondAttribute="trailing" constant="10" id="iHg-Bm-ItJ"/>
                             <constraint firstItem="csc-WI-tLA" firstAttribute="top" secondItem="gh5-P4-u7S" secondAttribute="bottom" id="mEr-oE-U9C"/>
                             <constraint firstItem="gh5-P4-u7S" firstAttribute="top" secondItem="Klh-jh-64r" secondAttribute="bottom" id="n7K-Hp-lCI"/>
                             <constraint firstItem="yal-eo-9os" firstAttribute="top" secondItem="csc-WI-tLA" secondAttribute="bottom" id="nRN-xs-o7X"/>
-                            <constraint firstItem="Klh-jh-64r" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="16" id="obb-uk-DUM"/>
+                            <constraint firstItem="yal-eo-9os" firstAttribute="leading" secondItem="DJI-EX-fb7" secondAttribute="leading" constant="10" id="pdg-bP-4kV"/>
                             <constraint firstItem="yal-eo-9os" firstAttribute="top" secondItem="csc-WI-tLA" secondAttribute="bottom" id="rlC-VR-l5c"/>
-                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="Klh-jh-64r" secondAttribute="trailing" constant="151" id="yS3-5Y-FrR"/>
-                            <constraint firstItem="DJI-EX-fb7" firstAttribute="trailing" secondItem="0VE-Io-EeD" secondAttribute="trailing" constant="101" id="zMC-0x-XWd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DJI-EX-fb7"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MeR-3Y-esl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2216" y="511"/>
+            <point key="canvasLocation" x="2214.375" y="510.21126760563379"/>
         </scene>
         <!--Basic Parlimentary Procedure-->
         <scene sceneID="kcF-T3-F4r">
