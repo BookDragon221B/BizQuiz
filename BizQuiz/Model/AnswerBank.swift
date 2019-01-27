@@ -158,10 +158,10 @@ class NationalOfficeAnswerBank {
         answer.append(Answer(text:"D)45"))
         
         //Question 6
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)State Officers"))
+        answer.append(Answer(text:"B)Local Advisors"))
+        answer.append(Answer(text:"C)Current National Officers"))
+        answer.append(Answer(text:"D)Officers running for reelection"))
         
         //Question 7
         answer.append(Answer(text:"A)"))

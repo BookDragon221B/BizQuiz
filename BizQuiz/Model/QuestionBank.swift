@@ -66,11 +66,11 @@ class NationalOfficeQuestionBank {
         list.append(Question(text: "What is the expected date for National Officers to pay their dues by?", correctAnswer: "C"))
         list.append(Question(text: "What is the maximum amount for a candidate to have spent or recieved in materials?", correctAnswer: "D"))
         
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "D"))
-        list.append(Question(text: "?", correctAnswer: "C"))
-        list.append(Question(text: "?", correctAnswer: "B"))
-        list.append(Question(text: "?", correctAnswer: "D"))
+        list.append(Question(text: "What is the maximum amount of time for a campaign speech?", correctAnswer: "A"))
+        list.append(Question(text: "For which national officer position do the cadidates not need to actively campaign?", correctAnswer: "D"))
+        list.append(Question(text: "What don't candidates for National Parlimentarian have to do?", correctAnswer: "C"))
+        list.append(Question(text: "In which case can a candidate apply for office at the NLC?", correctAnswer: "B"))
+        list.append(Question(text: "Which of these isn't required for a candidate to submit at the Candidate Briefing Session?", correctAnswer: "D"))
         
     }
     

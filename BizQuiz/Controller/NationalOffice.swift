@@ -9,8 +9,8 @@
 import UIKit
 
 class NationalOfficeViewController : UIViewController {
-    let allQuestions = FBLAHistoryQuestionBank()
-    let allAnswers = FBLAAnswerBank()
+    let allQuestions = NationalOfficeQuestionBank()
+    let allAnswers = NationalOfficeAnswerBank()
     
     var pickedAnswer : String = ""
     var questionNumber : Int = 0
@@ -72,10 +72,15 @@ class NationalOfficeViewController : UIViewController {
     }
     
     func changeAnswers() {
+        if answerDNumber <= 60{
         answerA.setTitle(allAnswers.answer[answerANumber].answerText, for: .normal)
         answerB.setTitle(allAnswers.answer[answerBNumber].answerText, for: .normal)
         answerC.setTitle(allAnswers.answer[answerCNumber].answerText, for: .normal)
         answerD.setTitle(allAnswers.answer[answerDNumber].answerText, for: .normal)
+        }
+        else {
+        nextQuestion()
+        }
     }
     func updateUI() {
         
@@ -126,6 +131,11 @@ class NationalOfficeViewController : UIViewController {
     func startOver() {
         score = 0
         questionNumber = 0
+        answerANumber = 0
+        answerBNumber = 1
+        answerCNumber = 2
+        answerDNumber = 3
+        changeAnswers()
         nextQuestion()
         
     }
