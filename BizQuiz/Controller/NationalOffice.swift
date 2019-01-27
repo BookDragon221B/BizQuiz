@@ -1,18 +1,16 @@
 //
-//  BasicParli.swift
+//  NationalOffice.swift
 //  BizQuiz
 //
-//  Created by Taryn Neal on 11/18/18.
-//  Copyright © 2018 Taryn Neal. All rights reserved.
+//  Created by Taryn Neal on 1/24/19.
+//  Copyright © 2019 Taryn Neal. All rights reserved.
 //
 
 import UIKit
 
-//Better way then just copy & pasting code to other vc's? Loop code?
-//Way to get rid of VC's? They are all just the same thing
-class BasicParliViewController: UIViewController {
-    let allQuestions = BasicParliQuestionBank()
-    let allAnswers = ParliAnswerBank()
+class NationalOfficeViewController : UIViewController {
+    let allQuestions = FBLAHistoryQuestionBank()
+    let allAnswers = FBLAAnswerBank()
     
     var pickedAnswer : String = ""
     var questionNumber : Int = 0
@@ -21,7 +19,7 @@ class BasicParliViewController: UIViewController {
     var answerBNumber : Int = 1
     var answerCNumber : Int = 2
     var answerDNumber : Int = 3
-
+    
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerA: UIButton!
@@ -72,7 +70,7 @@ class BasicParliViewController: UIViewController {
         nextQuestion()
         changeAnswers()
     }
-
+    
     func changeAnswers() {
         answerA.setTitle(allAnswers.answer[answerANumber].answerText, for: .normal)
         answerB.setTitle(allAnswers.answer[answerBNumber].answerText, for: .normal)
@@ -82,16 +80,16 @@ class BasicParliViewController: UIViewController {
     func updateUI() {
         
         scoreLabel.text = "Score: \(score)"
-
+        
     }
     
     
     func nextQuestion() {
         
-        if questionNumber <= 1{
+        if questionNumber <= 14{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
-        
+            
             updateUI()
             
         }
@@ -116,7 +114,7 @@ class BasicParliViewController: UIViewController {
         let correctAnswer = allQuestions.list[questionNumber].answer
         
         if correctAnswer == pickedAnswer {
-    
+            
             score += 1
         }
         else {
@@ -124,10 +122,11 @@ class BasicParliViewController: UIViewController {
         }
     }
     
+    
     func startOver() {
         score = 0
         questionNumber = 0
         nextQuestion()
+        
     }
 }
-

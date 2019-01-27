@@ -48,35 +48,38 @@ class FBLAHistoryQuestionBank {
     }
     
 }
+//Question Bank for the topic running for national office
+class NationalOfficeQuestionBank {
+    
+    var list = [Question]()
+    
+    init() {
+        list.append(Question(text: "How many regional vice presidents are there?", correctAnswer: "C"))
+        list.append(Question(text: "Which qualification do National Officer candidates need?", correctAnswer: "D"))
+        list.append(Question(text: "When is the National Officer application deadline?", correctAnswer: "B"))
+        list.append(Question(text: "When is National Officer training?", correctAnswer: "A"))
+        list.append(Question(text: "Approximately how many minutes will the candidate interview at the NLC be?", correctAnswer: "B"))
+        
+        list.append(Question(text: "Who is part of the National Officer Screening Committee?", correctAnswer: "C"))
+        list.append(Question(text: "What activities should candidates engage in?", correctAnswer: "B"))
+        list.append(Question(text: "When can candidates campaign via social media?", correctAnswer: "B"))
+        list.append(Question(text: "What is the expected date for National Officers to pay their dues by?", correctAnswer: "C"))
+        list.append(Question(text: "What is the maximum amount for a candidate to have spent or recieved in materials?", correctAnswer: "D"))
+        
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "D"))
+        list.append(Question(text: "?", correctAnswer: "C"))
+        list.append(Question(text: "?", correctAnswer: "B"))
+        list.append(Question(text: "?", correctAnswer: "D"))
+        
+    }
+    
+}
 
 ////Question Bank for the topic business skills.
 //class BusinessSkillsQuestionBank {
 //
 //    var skillList = [Question]()
-//
-//    init() {
-//
-//    }
-//
-//}
-//
-
-
-////Question Bank for the topic National Conference Dates & Locations (NCD&L)
-//class NCDLQuestionBank {
-//
-//    var conferenceList = [Question]()
-//
-//    init() {
-//
-//    }
-//
-//}
-//
-////Question Bank for the topic National Sponsers
-//class NationalSponsersQuestionBank {
-//
-//    var sponserList = [Question]()
 //
 //    init() {
 //
@@ -95,13 +98,4 @@ class FBLAHistoryQuestionBank {
 //
 //}
 //
-////Question Bank for the topic running for national office
-//class RunningForNationalOfficeQuestionBank {
-//
-//    var list = [Question]()
-//
-//    init() {
-//
-//    }
-//
-//}
+

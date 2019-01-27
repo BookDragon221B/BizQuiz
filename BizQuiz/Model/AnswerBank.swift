@@ -122,3 +122,100 @@ class FBLAAnswerBank {
         
     }
 }
+
+class NationalOfficeAnswerBank {
+    var answer = [Answer]()
+    
+    init() {
+        //Question 1
+        answer.append(Answer(text:"A)3"))
+        answer.append(Answer(text:"B)4"))
+        answer.append(Answer(text:"C)5"))
+        answer.append(Answer(text:"D)6"))
+        
+        //Question 2
+        answer.append(Answer(text:"A)To hold or have held an elective office in their local or state chapter"))
+        answer.append(Answer(text:"B)To have at least 1 full year remaining in their business program"))
+        answer.append(Answer(text:"C)To be recommended by the chapter advisers and endorsed by their local and state chapters"))
+        answer.append(Answer(text:"D)All of the above"))
+        
+        //Question 3
+        answer.append(Answer(text:"A)March 1st"))
+        answer.append(Answer(text:"B)May 15th"))
+        answer.append(Answer(text:"C)February 8th"))
+        answer.append(Answer(text:"D)June 21st"))
+        
+        //Question 4
+        answer.append(Answer(text:"A)August 6th to 9th"))
+        answer.append(Answer(text:"B)July 21st to 24th"))
+        answer.append(Answer(text:"C)September 1st to 4th"))
+        answer.append(Answer(text:"D)July 14th to 17th"))
+        
+        //Question 5
+        answer.append(Answer(text:"A)5"))
+        answer.append(Answer(text:"B)15"))
+        answer.append(Answer(text:"C)30"))
+        answer.append(Answer(text:"D)45"))
+        
+        //Question 6
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 7
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 8
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 9
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 10
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        
+        //Question 11
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 12
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 13
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 14
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 15
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+    }
+}
