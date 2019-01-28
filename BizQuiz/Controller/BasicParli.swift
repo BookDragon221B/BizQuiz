@@ -74,25 +74,27 @@ class BasicParliViewController: UIViewController {
     }
 
     func changeAnswers() {
-        answerA.setTitle(allAnswers.answer[answerANumber].answerText, for: .normal)
-        answerB.setTitle(allAnswers.answer[answerBNumber].answerText, for: .normal)
-        answerC.setTitle(allAnswers.answer[answerCNumber].answerText, for: .normal)
-        answerD.setTitle(allAnswers.answer[answerDNumber].answerText, for: .normal)
+        //This if else statement keeps the answer index from going fattaly out of range. answerDNumber was used because it was the highest.
+        if answerDNumber <= 60{
+            answerA.setTitle(allAnswers.answer[answerANumber].answerText, for: .normal)
+            answerB.setTitle(allAnswers.answer[answerBNumber].answerText, for: .normal)
+            answerC.setTitle(allAnswers.answer[answerCNumber].answerText, for: .normal)
+            answerD.setTitle(allAnswers.answer[answerDNumber].answerText, for: .normal)
+        }
+        else {
+            nextQuestion()
+        }
     }
-    func updateUI() {
-        
-        scoreLabel.text = "Score: \(score)"
-
-    }
-    
     
     func nextQuestion() {
-        
-        if questionNumber <= 1{
+        //Setting this value to 13 keeps the index for answers in the right range, but setting it there also makes it so the last question isn't displayed
+        // maybe changing the starting value of q# but not naswer. or is there a way to stop answer. Another if else statemnet maybe
+        if questionNumber <= 14{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
-        
-            updateUI()
+            
+            scoreLabel.text = "Score: \(score)"
+            //Calls the correct question set in the question bank (allQuestions.list) and then updates the score
             
         }
         else {
@@ -110,24 +112,30 @@ class BasicParliViewController: UIViewController {
         }
     }
     
-    
     func checkAnswer() {
         
         let correctAnswer = allQuestions.list[questionNumber].answer
         
         if correctAnswer == pickedAnswer {
-    
+            
+            ProgressHUD.showSuccess("Correct")
+            
             score += 1
         }
         else {
-            
+            ProgressHUD.showError("Wrong.")
         }
     }
     
     func startOver() {
         score = 0
         questionNumber = 0
+        answerANumber = 0
+        answerBNumber = 1
+        answerCNumber = 2
+        answerDNumber = 3
+        changeAnswers()
         nextQuestion()
-    }
+        }
 }
 

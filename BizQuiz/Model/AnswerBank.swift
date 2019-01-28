@@ -12,16 +12,96 @@ class ParliAnswerBank {
     var answer = [Answer]()
     
     init() {
+        //Question 1
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
         
-        answer.append(Answer(text: "Answer A"))
-        answer.append(Answer(text: "Answer B"))
-        answer.append(Answer(text: "Answer C"))
-        answer.append(Answer(text: "Answer D"))
-        answer.append(Answer(text: "Why"))
-        answer.append(Answer(text: "Save me"))
-        answer.append(Answer(text: "code"))
-        answer.append(Answer(text: "yeet"))
-
+        //Question 2
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 3
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 4
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 5
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 6
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 7
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 8
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 9
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 10
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        
+        //Question 11
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 12
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 13
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 14
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 15
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
     }
 }
 
@@ -219,3 +299,199 @@ class NationalOfficeAnswerBank {
         answer.append(Answer(text:"D)"))
     }
 }
+
+class BusinessSkillsAnswerBank {
+    var answer = [Answer]()
+
+    init() {
+        //Question 1
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 2
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 3
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 4
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 5
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 6
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 7
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 8
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 9
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 10
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        
+        //Question 11
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 12
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 13
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 14
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 15
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+    }
+}
+
+class CompetitiveEventsAnswerBank {
+    var answer = [Answer]()
+    
+    init() {
+        //Question 1
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 2
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 3
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 4
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 5
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 6
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 7
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 8
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 9
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 10
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        
+        //Question 11
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 12
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 13
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 14
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+        
+        //Question 15
+        answer.append(Answer(text:"A)"))
+        answer.append(Answer(text:"B)"))
+        answer.append(Answer(text:"C)"))
+        answer.append(Answer(text:"D)"))
+    }
+}
+

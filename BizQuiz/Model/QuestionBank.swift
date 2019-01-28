@@ -17,7 +17,21 @@ class BasicParliQuestionBank {
         // Creating the quiz item inside the append function
         list.append(Question(text: "Which of these is one one of the specific goals of FBLA stated in Article II of the FBLA Bylaws? ", correctAnswer: "A"))
         list.append(Question(text: "Article IV of the FBLA bylaws covers the organization of FBLA.", correctAnswer: "D"))
-       
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
     }
     
 }
@@ -76,26 +90,56 @@ class NationalOfficeQuestionBank {
     
 }
 
-////Question Bank for the topic business skills.
-//class BusinessSkillsQuestionBank {
-//
-//    var skillList = [Question]()
-//
-//    init() {
-//
-//    }
-//
-//}
-//
-////Question Bank for the topic competitive events
-//class CompetitiveEventsQuestionBank {
-//
-//    var eventList = [Question]()
-//
-//    init() {
-//
-//    }
-//
-//}
-//
+//Question Bank for the topic business skills.
+class BusinessSkillsQuestionBank {
+
+    var list = [Question]()
+
+    init() {
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+    }
+}
+
+//Question Bank for the topic competitive events
+class CompetitiveEventsQuestionBank {
+
+    var list = [Question]()
+
+    init() {
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: ""))
+    }
+}
+
 
