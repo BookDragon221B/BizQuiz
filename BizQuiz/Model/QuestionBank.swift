@@ -96,23 +96,22 @@ class BusinessSkillsQuestionBank {
     var list = [Question]()
 
     init() {
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "D"))
+        list.append(Question(text: "?", correctAnswer: "C"))
+        list.append(Question(text: "?", correctAnswer: "B"))
+        list.append(Question(text: "?", correctAnswer: "A"))
         
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "A"))
         
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "A"))
     }
 }
 
@@ -122,8 +121,8 @@ class CompetitiveEventsQuestionBank {
     var list = [Question]()
 
     init() {
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "?", correctAnswer: "B"))
         list.append(Question(text: "?", correctAnswer: ""))
         list.append(Question(text: "?", correctAnswer: ""))
         list.append(Question(text: "?", correctAnswer: ""))
