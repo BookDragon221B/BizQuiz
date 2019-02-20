@@ -99,7 +99,7 @@ class BasicParliViewController: UIViewController {
         }
         else {
             
-            let alert = UIAlertController(title: "Awesome", message: "Hey so you finished all the questions... start over?", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Awesome", message: "Please share your score with #BizQuiz on Twitter, Instagram, Facebook, etc! Do you want to try again? Just click restart!", preferredStyle: .alert)
             
             let restartAction = UIAlertAction(title: "Restart", style: .default, handler: { (UIAlertAction) in
                 self.startOver()

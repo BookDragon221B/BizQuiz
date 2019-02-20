@@ -9,6 +9,7 @@
 import Foundation
 
 class Answer {
+    
     let answerText : String
     
     init(text : String) {

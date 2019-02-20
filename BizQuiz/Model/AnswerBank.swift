@@ -244,59 +244,59 @@ class NationalOfficeAnswerBank {
         answer.append(Answer(text:"D)Officers running for reelection"))
         
         //Question 7
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)State their intent to run for National Office prior to the NLC"))
+        answer.append(Answer(text:"B)Allow their advisors to look over their application beforehand"))
+        answer.append(Answer(text:"C)Create a campaign website or campaign app"))
+        answer.append(Answer(text:"D)All of the above"))
         
         //Question 8
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)As soon as they decide to run for National Office"))
+        answer.append(Answer(text:"B)At the beginning of the campaign rally portion of opening session"))
+        answer.append(Answer(text:"C)After they submit their application"))
+        answer.append(Answer(text:"D)After May 15th"))
         
         //Question 9
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Feburary 8th"))
+        answer.append(Answer(text:"B)March 1st"))
+        answer.append(Answer(text:"C)September 1st"))
+        answer.append(Answer(text:"D)November 2nd"))
         
         //Question 10
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)$5000"))
+        answer.append(Answer(text:"B)$1000"))
+        answer.append(Answer(text:"C)$3000"))
+        answer.append(Answer(text:"D)$2000"))
         
         
         //Question 11
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)2 minutes"))
+        answer.append(Answer(text:"B)5 minutes"))
+        answer.append(Answer(text:"C)7 minutes"))
+        answer.append(Answer(text:"D)10 minutes"))
         
         //Question 12
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Treasurer"))
+        answer.append(Answer(text:"B)Secretary"))
+        answer.append(Answer(text:"C)Regional VP"))
+        answer.append(Answer(text:"D)Parlimentarian"))
         
         //Question 13
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Attend the Candidate Briefings Session"))
+        answer.append(Answer(text:"B)Take the written parlimentary procedure exam"))
+        answer.append(Answer(text:"C)Participate in candidate interviews at the NLC"))
+        answer.append(Answer(text:"D)Submit their application by May 15th"))
         
         //Question 14
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)They have special permission from their state advisor"))
+        answer.append(Answer(text:"B)No candidates are submitted for office by the 1st or 2nd deadline"))
+        answer.append(Answer(text:"C)They were nominated by the previous holder of that position"))
+        answer.append(Answer(text:"D)The candidate has filed a request with the board of directors and has been approved"))
         
         //Question 15
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Copy of campaign speech"))
+        answer.append(Answer(text:"B)Copy of campaign finacial statement"))
+        answer.append(Answer(text:"C)One of all campaign items"))
+        answer.append(Answer(text:"D)Copy of campaign participant list"))
     }
 }
 
@@ -305,95 +305,95 @@ class BusinessSkillsAnswerBank {
 
     init() {
         //Question 1
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Age"))
+        answer.append(Answer(text:"B)Income"))
+        answer.append(Answer(text:"C)Education Level"))
+        answer.append(Answer(text:"D)All of the above"))
         
-        //Question 2
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        //Question 2- need better answers
+        answer.append(Answer(text:"A)Give back to your community"))
+        answer.append(Answer(text:"B)Use social media to gain customer insight"))
+        answer.append(Answer(text:"C)Ignore customer complaints"))
+        answer.append(Answer(text:"D)Have great customer service"))
         
         //Question 3
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)4%"))
+        answer.append(Answer(text:"B)10%"))
+        answer.append(Answer(text:"C)2%"))
+        answer.append(Answer(text:"D)15%"))
         
         //Question 4
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Ignore the risk"))
+        answer.append(Answer(text:"B)Avoid the risk"))
+        answer.append(Answer(text:"C)Assume the risk"))
+        answer.append(Answer(text:"D)Insure the risk"))
         
         //Question 5
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)It's divisible"))
+        answer.append(Answer(text:"B)It's durable"))
+        answer.append(Answer(text:"C)It becomes too plentiful"))
+        answer.append(Answer(text:"D)It becomes too portable"))
         
         //Question 6
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Focus"))
+        answer.append(Answer(text:"B)Interests"))
+        answer.append(Answer(text:"C)Values"))
+        answer.append(Answer(text:"D)Ambitions"))
         
         //Question 7
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Equally liquid"))
+        answer.append(Answer(text:"B)Less liquid"))
+        answer.append(Answer(text:"C)More dynamic"))
+        answer.append(Answer(text:"D)More liquid"))
         
         //Question 8
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Mission statements"))
+        answer.append(Answer(text:"B)Standards"))
+        answer.append(Answer(text:"C)Values"))
+        answer.append(Answer(text:"D)Business Ethics"))
         
         //Question 9
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Taxation"))
+        answer.append(Answer(text:"B)Professional management"))
+        answer.append(Answer(text:"C)Perpetual life"))
+        answer.append(Answer(text:"D)The potienal for a greater amount of capital "))
         
         //Question 10
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Profitablity ratio"))
+        answer.append(Answer(text:"B)Quick ratio"))
+        answer.append(Answer(text:"C)Earnings ratio"))
+        answer.append(Answer(text:"D)Expediture ratio"))
         
         
         //Question 11
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Disorganization"))
+        answer.append(Answer(text:"B)Keeping a time log"))
+        answer.append(Answer(text:"C)Inefficent communication"))
+        answer.append(Answer(text:"D)Unnecessary telephone conversations"))
         
         //Question 12
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Identify the speaker's main ideas"))
+        answer.append(Answer(text:"B)Identify the speaker's purpose"))
+        answer.append(Answer(text:"C)Assess the speaker's apperance"))
+        answer.append(Answer(text:"D)Note the speaker's tone/ body language"))
         
         //Question 13
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)To be politically correct"))
+        answer.append(Answer(text:"B)To treat others with respect"))
+        answer.append(Answer(text:"C)To avoid hurting other's feelings"))
+        answer.append(Answer(text:"D)To avoid offending others"))
         
         //Question 14
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Approximately 2-4 main pieces"))
+        answer.append(Answer(text:"B)As many points as necessary to get your point across"))
+        answer.append(Answer(text:"C)Up to 10 main points"))
+        answer.append(Answer(text:"D)At least 5-8 main points"))
         
         //Question 15
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Moving around the room"))
+        answer.append(Answer(text:"B)A smile"))
+        answer.append(Answer(text:"C)Good eye contact"))
+        answer.append(Answer(text:"D)Gestures"))
         
     }
 }

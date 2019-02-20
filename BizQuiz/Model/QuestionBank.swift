@@ -83,7 +83,7 @@ class NationalOfficeQuestionBank {
         list.append(Question(text: "What is the maximum amount of time for a campaign speech?", correctAnswer: "A"))
         list.append(Question(text: "For which national officer position do the cadidates not need to actively campaign?", correctAnswer: "D"))
         list.append(Question(text: "What don't candidates for National Parlimentarian have to do?", correctAnswer: "C"))
-        list.append(Question(text: "In which case can a candidate apply for office at the NLC?", correctAnswer: "B"))
+        list.append(Question(text: "Candidates can only apply for office at the NLC if...", correctAnswer: "B"))
         list.append(Question(text: "Which of these isn't required for a candidate to submit at the Candidate Briefing Session?", correctAnswer: "D"))
         
     }
@@ -96,22 +96,23 @@ class BusinessSkillsQuestionBank {
     var list = [Question]()
 
     init() {
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "D"))
-        list.append(Question(text: "?", correctAnswer: "C"))
-        list.append(Question(text: "?", correctAnswer: "B"))
-        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "What should you group your marketing demographics by?", correctAnswer: "D"))
+        list.append(Question(text: "What shouldn't you do to raise the profile of your business?", correctAnswer: "C"))
+        list.append(Question(text: "What percent of your actual turnover should you spend on marketing (As a general rule of thumb)?", correctAnswer: "A"))
+        list.append(Question(text: "Which of these is not a business strategy for a business risk?", correctAnswer: "A"))
+        list.append(Question(text: "When does money lose its value?", correctAnswer: "C"))
         
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "A"))
-        
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "A"))
+        list.append(Question(text: "A desire to acquire additional education beyond the college degree is an example of...?", correctAnswer: "C"))
+        list.append(Question(text: "When compared to a traditional savings account, a certificate of deposit is...?", correctAnswer: "B"))
+        list.append(Question(text: "What are the rules about how businesses and their employees should behave called?", correctAnswer: "D"))
+        list.append(Question(text: "The disadvantage of corporations is...?", correctAnswer: "A"))
+        list.append(Question(text: "What should be determined to calculate the earning power of a business?", correctAnswer: "A"))
+        // address copyright for 10?
+        list.append(Question(text: "What is not a common time waster on the job?", correctAnswer: "B"))
+        list.append(Question(text: "Which one of the following steps would not help a person to listen actively?", correctAnswer: "C"))
+        list.append(Question(text: "What is the poorest reason for using bias-free language?", correctAnswer: "A"))
+        list.append(Question(text: "The body of a short, 20 minute presentation should focus on which one of the following?", correctAnswer: "A"))
+        list.append(Question(text: "Which nonverbal symbol has the greatest impact in an oral presentation?", correctAnswer: "C"))
     }
 }
 
