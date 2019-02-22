@@ -15,23 +15,23 @@ class BasicParliQuestionBank {
     init() {
     
         // Creating the quiz item inside the append function
-        list.append(Question(text: "Which of these is one one of the specific goals of FBLA stated in Article II of the FBLA Bylaws? ", correctAnswer: "A"))
-        list.append(Question(text: "Article IV of the FBLA bylaws covers the organization of FBLA.", correctAnswer: "D"))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "What are the official colors of FBLA? ", correctAnswer: "C"))
+        list.append(Question(text: "Which article in the FBLA bylaws describes the information about FBLA dues?", correctAnswer: "B"))
+        list.append(Question(text: "Which of these means to appeal?", correctAnswer: "B"))
+        list.append(Question(text: "If the office of FBLA president becomes vacant, who automatically becomes president?", correctAnswer: "D"))
+        list.append(Question(text: "Corrections to the minutes...?", correctAnswer: "A"))
         
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "The lack of a second becomes immaterial...?", correctAnswer: "B"))
+        list.append(Question(text: "Who appoints a committee composed of national officers and board members that carefully considers applicants for officer of FBLA?", correctAnswer: "B"))
+        list.append(Question(text: "What happens when a committee is named by an assembly without designating a chairman?", correctAnswer: "D"))
+        list.append(Question(text: "What shouldn't the tellers' report include?", correctAnswer: "C"))
+        list.append(Question(text: "What happens in the case of a tie vote on an ordinary motion?", correctAnswer: "D"))
         
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "How many copies of the minutes should the secretary supply to the necessary authorities?", correctAnswer: "B"))
+        list.append(Question(text: "The motion to recess when no question is pending...?", correctAnswer: "D"))
+        list.append(Question(text: "In the minutes of which meeting must the action of the National Executive Council be included?", correctAnswer: "D"))
+        list.append(Question(text: "What is the chief difference in the rules governing original and incidental main motions?", correctAnswer: "C"))
+        list.append(Question(text: "Proposed amendments to the bylaws must be submitted in writing to the...?", correctAnswer: "A"))
     }
     
 }

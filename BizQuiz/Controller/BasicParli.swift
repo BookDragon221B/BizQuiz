@@ -28,6 +28,7 @@ class BasicParliViewController: UIViewController {
     @IBOutlet weak var answerB: UIButton!
     @IBOutlet weak var answerC: UIButton!
     @IBOutlet weak var answerD: UIButton!
+    @IBOutlet weak var progressLabel: UILabel!
     
     //Figure out how to change answer text as well
     override func viewDidLoad() {
@@ -92,12 +93,13 @@ class BasicParliViewController: UIViewController {
         if questionNumber <= 14{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
-            
+            progressLabel.text = "\(questionNumber + 1) / 15"
             scoreLabel.text = "Score: \(score)"
             //Calls the correct question set in the question bank (allQuestions.list) and then updates the score
             
         }
         else {
+            scoreLabel.text = "Score: \(score)"
             
             let alert = UIAlertController(title: "Awesome", message: "Please share your score with #BizQuiz on Twitter, Instagram, Facebook, etc! Do you want to try again? Just click restart!", preferredStyle: .alert)
             

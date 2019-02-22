@@ -26,6 +26,7 @@ class BusinessSkillsViewController : UIViewController {
     @IBOutlet weak var answerB: UIButton!
     @IBOutlet weak var answerC: UIButton!
     @IBOutlet weak var answerD: UIButton!
+    @IBOutlet weak var progressLabel: UILabel!
     
     //Figure out how to change answer text as well
     override func viewDidLoad() {
@@ -88,13 +89,14 @@ class BusinessSkillsViewController : UIViewController {
         if questionNumber <= 14{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
-            
+            progressLabel.text = "\(questionNumber + 1) / 15"
             scoreLabel.text = "Score: \(score)"
             
         }
         else {
             
-           let alert = UIAlertController(title: "Awesome", message: "Please share your score with #BizQuiz on Twitter, Instagram, Facebook, etc! Do you want to try again? Just click restart!", preferredStyle: .alert)
+            scoreLabel.text = "Score: \(score)"
+            let alert = UIAlertController(title: "Awesome", message: "Please share your score with #BizQuiz on Twitter, Instagram, Facebook, etc! Do you want to try again? Just click restart!", preferredStyle: .alert)
             
             let restartAction = UIAlertAction(title: "Restart", style: .default, handler: { (UIAlertAction) in
                 self.startOver()

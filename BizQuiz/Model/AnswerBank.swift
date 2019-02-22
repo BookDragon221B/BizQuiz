@@ -12,96 +12,98 @@ class ParliAnswerBank {
     var answer = [Answer]()
     
     init() {
+        //Seperated into lines of 4 for each question. Follows a similar pattern as the questions by appending a list.
+        
         //Question 1
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Red, White, and Blue"))
+        answer.append(Answer(text:"B)Blue and yellow"))
+        answer.append(Answer(text:"C)Navy blue and gold"))
+        answer.append(Answer(text:"D)Red and White"))
         
         //Question 2
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Article III"))
+        answer.append(Answer(text:"B)Article IV"))
+        answer.append(Answer(text:"C)Article VI"))
+        answer.append(Answer(text:"D)Article V"))
         
         //Question 3
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Close the meeting"))
+        answer.append(Answer(text:"B)Question the Chair's ruling"))
+        answer.append(Answer(text:"C)Agree"))
+        answer.append(Answer(text:"D)Modify meaning"))
         
         //Question 4
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Vice president"))
+        answer.append(Answer(text:"B)Secretary"))
+        answer.append(Answer(text:"C)Other candudate with second most votes"))
+        answer.append(Answer(text:"D)Vice president from the president's region"))
         
         //Question 5
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Should only be made on the minutes being corrected"))
+        answer.append(Answer(text:"B)May be made only after they are reaad to the assembly"))
+        answer.append(Answer(text:"C)Should be made in the minutes of the current meeting and on the minutes being corrected"))
+        answer.append(Answer(text:"D)Cannot be made after being accepted by the assembly"))
         
         //Question 6
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)After the chair has stated the question"))
+        answer.append(Answer(text:"B)When the vote is taken"))
+        answer.append(Answer(text:"C)After the debate has begun"))
+        answer.append(Answer(text:"D)When the maker of the motion asks for permission to withdraw it"))
         
         //Question 7
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)CEO"))
+        answer.append(Answer(text:"B)FBLA President"))
+        answer.append(Answer(text:"C)Board of Directors"))
+        answer.append(Answer(text:"D)National Executive Council"))
         
         //Question 8
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)The body that elected the committee members names a chairman"))
+        answer.append(Answer(text:"B)The chairman is the first named member of the committee"))
+        answer.append(Answer(text:"C)The chair names the chairman"))
+        answer.append(Answer(text:"D)The committee elects its own chairman"))
         
         //Question 9
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)The number of votes against"))
+        answer.append(Answer(text:"B)The number of votes cast"))
+        answer.append(Answer(text:"C)The number of members eligible to vote"))
+        answer.append(Answer(text:"D)The number necessary for adoption"))
         
         //Question 10
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Another vote must be taken"))
+        answer.append(Answer(text:"B)The presiding officer, who is a member, must vote to break the tie"))
+        answer.append(Answer(text:"C)The vote can be reconsidered is moved by the one who votes in the affirmative"))
+        answer.append(Answer(text:"D)The motion is lost"))
         
         
         //Question 11
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)1"))
+        answer.append(Answer(text:"B)2"))
+        answer.append(Answer(text:"C)3"))
+        answer.append(Answer(text:"D)4"))
         
         //Question 12
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Requires a 2/3 vote"))
+        answer.append(Answer(text:"B)Is not debatable"))
+        answer.append(Answer(text:"C)Is not amendable"))
+        answer.append(Answer(text:"D)Sets the time for recess"))
         
         //Question 13
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Adjourned meeting"))
+        answer.append(Answer(text:"B)Special meeting"))
+        answer.append(Answer(text:"C)Regular meeting"))
+        answer.append(Answer(text:"D)Next regular meeting"))
         
         //Question 14
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Only incidental main motions can be reconsidered"))
+        answer.append(Answer(text:"B)Only incidental main motions carry with them pending subsidary motions when laid on the table"))
+        answer.append(Answer(text:"C)Objection to consideration of a question can be applied only to an original main motion"))
+        answer.append(Answer(text:"D)Incidental main motions require only a majority vote"))
         
         //Question 15
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A)Association President"))
+        answer.append(Answer(text:"B)National Executive Council"))
+        answer.append(Answer(text:"C)FBLA president"))
+        answer.append(Answer(text:"D)Board of Directors"))
     }
 }
 
