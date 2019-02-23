@@ -122,9 +122,9 @@ class CompetitiveEventsQuestionBank {
     var list = [Question]()
 
     init() {
-        list.append(Question(text: "?", correctAnswer: "A"))
-        list.append(Question(text: "?", correctAnswer: "B"))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "How many of the top 10 at state go to nationals?", correctAnswer: "D"))
+        list.append(Question(text: "What are the events specifically for 9th and 10th grade called?", correctAnswer: "B"))
+        list.append(Question(text: "Which of these isn't one the event categories?", correctAnswer: ""))
         list.append(Question(text: "?", correctAnswer: ""))
         list.append(Question(text: "?", correctAnswer: ""))
         
