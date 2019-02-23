@@ -6,4 +6,4 @@ If you aren't, my sincere apologies for assuming you weren't.
 
 BizQuiz was created for the FBLA Mobile Application Development event.
 
-When navigating BizQuiz, jus click on the blue and yellow buttons as shown below.
+When navigating BizQuiz, just click on the blue and yellow buttons as shown below.
