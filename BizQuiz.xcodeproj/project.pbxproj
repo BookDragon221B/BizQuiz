@@ -75,10 +75,10 @@
 			children = (
 				9BB9537621193FEF005CAE52 /* AppDelegate.swift */,
 				9BB9537821193FEF005CAE52 /* ViewController.swift */,
-				9BEAA4AB21A2416F00CAA838 /* BasicParli.swift */,
-				9BED3A5A21A5F6E000510E74 /* History.swift */,
-				9B0138F421FA7E2E00B79559 /* NationalOffice.swift */,
 				9BB1647B21FE818C0037AAC9 /* BusinessSkills.swift */,
+				9BEAA4AB21A2416F00CAA838 /* BasicParli.swift */,
+				9B0138F421FA7E2E00B79559 /* NationalOffice.swift */,
+				9BED3A5A21A5F6E000510E74 /* History.swift */,
 				9BB1647D21FE81A70037AAC9 /* CompetitiveEvents.swift */,
 			);
 			path = Controller;
