@@ -89,7 +89,7 @@ class CompetitiveEventsViewController : UIViewController {
         if questionNumber <= 14{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
-            progressLabel.text = "\(questionNumber + 1) / 15"
+            progressLabel.text = "Question: \(questionNumber + 1) / 15"
             scoreLabel.text = "Score: \(score)"
             
         }

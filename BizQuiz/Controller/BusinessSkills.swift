@@ -89,14 +89,14 @@ class BusinessSkillsViewController : UIViewController {
         if questionNumber <= 14{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
-            progressLabel.text = "\(questionNumber + 1) / 15"
+            progressLabel.text = "Question: \(questionNumber + 1) / 15"
             scoreLabel.text = "Score: \(score)"
             
         }
         else {
             
             scoreLabel.text = "Score: \(score)"
-            let alert = UIAlertController(title: "Awesome", message: "Please share your score with #BizQuiz on Twitter, Instagram, Facebook, etc! D4o you want to try again? Just click restart!", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Awesome", message: "Please share your score with #BizQuiz on Twitter, Instagram, Facebook, etc! Do you want to try again? Just click restart!", preferredStyle: .alert)
             
             let restartAction = UIAlertAction(title: "Restart", style: .default, handler: { (UIAlertAction) in
                 self.startOver()

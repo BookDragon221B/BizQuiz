@@ -91,7 +91,7 @@ class FBLAHistoryViewController : UIViewController {
         if questionNumber <= 14{
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
-            progressLabel.text = "\(questionNumber + 1) / 15"
+            progressLabel.text = "Question: \(questionNumber + 1) / 15"
             scoreLabel.text = "Score: \(score)"
         //Calls the correct question set in the question bank (allQuestions.list) and then updates the score
             

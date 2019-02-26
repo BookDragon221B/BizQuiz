@@ -22,7 +22,7 @@ class BasicParliQuestionBank {
         list.append(Question(text: "Corrections to the minutes...?", correctAnswer: "A"))
         
         list.append(Question(text: "The lack of a second becomes immaterial...?", correctAnswer: "B"))
-        list.append(Question(text: "Who appoints a committee composed of national officers and board members that carefully considers applicants for officer of FBLA?", correctAnswer: "B"))
+        list.append(Question(text: "Who appoints the committee that considers applicants for officers of FBLA?", correctAnswer: "B"))
         list.append(Question(text: "What happens when a committee is named by an assembly without designating a chairman?", correctAnswer: "D"))
         list.append(Question(text: "What shouldn't the tellers' report include?", correctAnswer: "C"))
         list.append(Question(text: "What happens in the case of a tie vote on an ordinary motion?", correctAnswer: "D"))
