@@ -6,4 +6,6 @@ If you aren't, my sincere apologies for assuming you weren't.
 
 BizQuiz was created for the FBLA Mobile Application Development event.
 
-When navigating BizQuiz, just click on the blue and yellow buttons as shown below.
+The naviagation of BizQuiz is fairly simply, consisting of silver buttons on a blue background to answer questions, choose your topic, and get to the topics.
+
+
