@@ -124,21 +124,21 @@ class CompetitiveEventsQuestionBank {
     init() {
         list.append(Question(text: "How many of the top 10 at state go to nationals?", correctAnswer: "D"))
         list.append(Question(text: "What are the events specifically for 9th and 10th grade called?", correctAnswer: "B"))
-        list.append(Question(text: "Which of these isn't one the event categories?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "Which of these isn't one the event categories?", correctAnswer: "B"))
+        list.append(Question(text: "What are new events called?", correctAnswer: "C"))
+        list.append(Question(text: "In which case do only the top 2 competitors from each preliminary round advance to the final round?", correctAnswer: "A"))
         
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "How long are the objective tests?", correctAnswer: "C"))
+        list.append(Question(text: "Internet access won't be provided for which of these events?", correctAnswer: "D"))
+        list.append(Question(text: "How many people/ teams usually advance to the final round of an event?", correctAnswer: "B"))
+        list.append(Question(text: "How many points are lost from your final score if you don't follow the dress code?", correctAnswer: "A"))
+        list.append(Question(text: "Which of these ablities is FBLA looking for in presentation events?", correctAnswer: "D"))
         
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
-        list.append(Question(text: "?", correctAnswer: ""))
+        list.append(Question(text: "How many competitors/ teams at regionals move onto state?", correctAnswer: "A"))
+        list.append(Question(text: "What was the new event introduced in the 2018-2019 school year?", correctAnswer: "B"))
+        list.append(Question(text: "What is an open event?", correctAnswer: "C"))
+        list.append(Question(text: "Which of these events is in the interview category?", correctAnswer: "A"))
+        list.append(Question(text: "Which of these is a chapter event?", correctAnswer: "D"))
     }
 }
 

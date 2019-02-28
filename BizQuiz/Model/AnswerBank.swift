@@ -405,95 +405,95 @@ class CompetitiveEventsAnswerBank {
     
     init() {
         //Question 1
-        answer.append(Answer(text:"A)Testing... Testing...Testing...Testing...Testing...Testing...Testing...Testing...Testing..."))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) 1"))
+        answer.append(Answer(text:"B) 2"))
+        answer.append(Answer(text:"C) 3"))
+        answer.append(Answer(text:"D) 4"))
         
         //Question 2
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) Beginning"))
+        answer.append(Answer(text:"B) Introduction"))
+        answer.append(Answer(text:"C) Simple"))
+        answer.append(Answer(text:"D) Intro"))
         
         //Question 3
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) Tests"))
+        answer.append(Answer(text:"B) Chapter"))
+        answer.append(Answer(text:"C) Presentation"))
+        answer.append(Answer(text:"D) Interview"))
         
         //Question 4
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) New"))
+        answer.append(Answer(text:"B) Experimental"))
+        answer.append(Answer(text:"C) Pilot"))
+        answer.append(Answer(text:"D) Recent"))
         
         //Question 5
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) There are more than 5 sections of preliminary performances"))
+        answer.append(Answer(text:"B) There are more than 35 competitors for an event"))
+        answer.append(Answer(text:"C) There are less than 50 competitors"))
+        answer.append(Answer(text:"D) There are more than 10 sections of preliminary performances"))
         
         //Question 6
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) 30 minutes"))
+        answer.append(Answer(text:"B) 45 minutes"))
+        answer.append(Answer(text:"C) 60 minutes"))
+        answer.append(Answer(text:"D) 90 minutes"))
         
         //Question 7
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) Mobile Application Development"))
+        answer.append(Answer(text:"B) Public Service Annoucement"))
+        answer.append(Answer(text:"C) Social Media Campaign"))
+        answer.append(Answer(text:"D) Broadcast Journalism"))
         
         //Question 8
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) 10"))
+        answer.append(Answer(text:"B) 15"))
+        answer.append(Answer(text:"C) 20"))
+        answer.append(Answer(text:"D) 25"))
         
         //Question 9
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) 5"))
+        answer.append(Answer(text:"B) 10"))
+        answer.append(Answer(text:"C) 15"))
+        answer.append(Answer(text:"D) 20"))
         
         //Question 10
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) Poise"))
+        answer.append(Answer(text:"B) Good Voice Projection"))
+        answer.append(Answer(text:"C) Confidence"))
+        answer.append(Answer(text:"D) All of the Above"))
         
         
         //Question 11
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) 6"))
+        answer.append(Answer(text:"B) 5"))
+        answer.append(Answer(text:"C) 4"))
+        answer.append(Answer(text:"D) 3"))
         
         //Question 12
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) Social Media Campaign"))
+        answer.append(Answer(text:"B) Political Science"))
+        answer.append(Answer(text:"C) Digital Video Production"))
+        answer.append(Answer(text:"D) Computer Game and Simulation Programming"))
         
         //Question 13
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) An event no one competed in"))
+        answer.append(Answer(text:"B) An online event involving various business skills"))
+        answer.append(Answer(text:"C) An online testing event open to any FBLA member present at the NLC"))
+        answer.append(Answer(text:"D) An event held out in the open at the NLC"))
         
         //Question 14
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) Future Business Leader"))
+        answer.append(Answer(text:"B) Help Desk"))
+        answer.append(Answer(text:"C) Broadcast Journalism"))
+        answer.append(Answer(text:"D) Hosipitality Management"))
         
         //Question 15
-        answer.append(Answer(text:"A)"))
-        answer.append(Answer(text:"B)"))
-        answer.append(Answer(text:"C)"))
-        answer.append(Answer(text:"D)"))
+        answer.append(Answer(text:"A) Global Business"))
+        answer.append(Answer(text:"B) Marketing"))
+        answer.append(Answer(text:"C) Publication Design"))
+        answer.append(Answer(text:"D) American Enterprise Project"))
     }
 }
 
