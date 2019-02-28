@@ -18,7 +18,7 @@ class ViewController: UIViewController {
             This app was made as a part of the Mobile Application Development FBLA-PBL competitive event.
             A.Images
             The use of FBLA’s logo, and other FBLA images follows the guidelines for its use as stated on the FBLA-PBL website at https://www.fbla-pbl.org/cmh/logos-images/guidelines/
-            B.Topic Questions and Answers
+            B.Topics: Questions and Answers
         The information for the FBLA history questions and answers were based from the official FBLA-PBL website at https://www.fbla-pbl.org/about/history/
         The information for the Basic Parliamentary Procedure Questions and Answers were based off the FBLA bylaws, the Introduction to Parliamentary Procedure Questions and Answers, the Parliamentary Procedure Questions and Answers, along with other Basic Parliamentary Procedure materials provided by our local chapter.
         The information for the topic of national office was based off of the bylaws at https://www.fbla-pbl.org/fbla/bylaws#qualifications, and the fbla pbl page on national officer candidates at https://www.fbla-pbl.org/fbla/officers/candidates/
