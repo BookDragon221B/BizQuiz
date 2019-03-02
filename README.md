@@ -8,4 +8,6 @@ BizQuiz was created for the FBLA Mobile Application Development event.
 
 The naviagation of BizQuiz is fairly simply, consisting of silver buttons on a blue background to answer questions, choose your topic, and get to the topics.
 
+The sourcing and lincensing for the questions for each of the topics is providided on the pop up at the beginning. 
 
+As required in the formatting guide, here is the GUI in PDF format:
