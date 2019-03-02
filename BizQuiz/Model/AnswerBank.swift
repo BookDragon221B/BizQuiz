@@ -15,10 +15,10 @@ class ParliAnswerBank {
         //Seperated into lines of 4 for each question. Follows a similar pattern as the questions by appending a list.
         
         //Question 1
-        answer.append(Answer(text:"A) Red, White, and Blue"))
+        answer.append(Answer(text:"A) Red, white, and blue"))
         answer.append(Answer(text:"B) Blue and yellow"))
         answer.append(Answer(text:"C) Navy blue and gold"))
-        answer.append(Answer(text:"D) Red and White"))
+        answer.append(Answer(text:"D) Red and white"))
         
         //Question 2
         answer.append(Answer(text:"A) Article III"))
@@ -475,7 +475,7 @@ class CompetitiveEventsAnswerBank {
         answer.append(Answer(text:"A) Social Media Campaign"))
         answer.append(Answer(text:"B) Political Science"))
         answer.append(Answer(text:"C) Digital Video Production"))
-        answer.append(Answer(text:"D) Computer Game and Simulation Programming"))
+        answer.append(Answer(text:"D) Computer Game and Simulation Programming4"))
         
         //Question 13
         answer.append(Answer(text:"A) An event no one competed in"))

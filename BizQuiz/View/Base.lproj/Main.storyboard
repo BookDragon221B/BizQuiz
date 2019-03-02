@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="height" constant="45" id="vrx-CG-upM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
-                                <state key="normal" title="Countinue To Topics">
+                                <state key="normal" title="Continue To Topics">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -114,7 +114,7 @@
                                     <constraint firstAttribute="height" constant="100" id="LNF-Rh-GLw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="24"/>
-                                <state key="normal" title="Competetive Events">
+                                <state key="normal" title="Competitive Events">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
