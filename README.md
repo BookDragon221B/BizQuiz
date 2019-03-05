@@ -35,6 +35,4 @@ For the popup that shows the user whether they were correct or incorrect in thei
 D.Terms
 As an FBLA member, this application was created to help further the agenda of FBLA, and help students become the leaders in their society. In using this application, you agree to uphold the goals of FBLA.
 
-Warning: If the application is opened on the iPhone SE or smaller, the constraints for formatting may be slightly disturbed.
-
 Thank you for your time and effort!
