@@ -7,9 +7,6 @@ This application is not available for download from the App Store, and as such, 
 
 The naviagation of BizQuiz is fairly simple, consisting of silver buttons on a blue background to answer questions, choose your topic, and get to the topics.
 
-As required in the formatting guide, here is the GUI in PDF format (Just copy and paste it into your browser):
-file:///Users/tarynneal/Desktop/BizQuiz.pdf
-
 The sourcing and lincensing for the questions for each of the topics is provided on the pop up at the beginning, but here's it anyways:
 
 This app was made as a part of the Mobile Application Development FBLA-PBL competitive event.
